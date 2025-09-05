@@ -36,7 +36,6 @@ function handleSubmit(event) {
     return;
   }
 
-  console.log(formData);
   localStorage.removeItem(formDataKey);
   form.reset();
   formData.email = '';
